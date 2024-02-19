@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{63f2750f-b493-4548-b413-7ce7d2ba3d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9b9f5ef7-98a6-47c6-81f2-9570a99dde46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Type">
+      <UniqueIdentifier>{5d29d9c7-08ec-46ee-8774-b5ee184df7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Type\UI">
+      <UniqueIdentifier>{a5817ef2-cf2a-41a5-82e2-4d182a842e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Title">
+      <UniqueIdentifier>{c24c2adc-7d08-49a0-ab42-7c85e4a46674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Main">
+      <UniqueIdentifier>{35d1052a-01f9-4f75-9531-dca217b14c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Data">
+      <UniqueIdentifier>{560e1c0a-2a50-407c-84f4-8c680154db6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game">
+      <UniqueIdentifier>{9ba637d4-e163-4d63-8b2d-9c4041053c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game\WorldObject">
+      <UniqueIdentifier>{0b36784d-6cff-4c7a-8fa5-908bbec9ea1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game\UI">
+      <UniqueIdentifier>{05caec1f-0750-4dee-b4a7-d80e995e0bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Library">
+      <UniqueIdentifier>{7b8d68f1-5a9b-453b-a46e-94e7b9acfd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Loading">
+      <UniqueIdentifier>{f31eefa8-164e-4d75-8d02-ffb0e4e6dee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game\Managers">
+      <UniqueIdentifier>{977ac90b-4ec3-4877-bef7-a003ad11d6cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Sources\Type\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Sources\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Sources\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Sources\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Sources\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObject.cpp">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Sources\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCursor.cpp">
+      <Filter>Sources\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveAndLoad.cpp">
+      <Filter>Sources\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="InputField.cpp">
+      <Filter>Sources\Type\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Sources\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Sources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Sources\Type\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Sources\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Sources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Sources\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Sources\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>Sources\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Sources\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Sources\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCursor.h">
+      <Filter>Sources\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Sources\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveAndLoad.h">
+      <Filter>Sources\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="InputField.h">
+      <Filter>Sources\Type\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Sources\Game\WorldObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Sources\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sources\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Sources\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\AppIcon.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Application.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{2a77b878-0bd2-4364-b21a-99bc1019b690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Type">
+      <UniqueIdentifier>{91ddc317-b13c-463c-b077-5ca25ac10182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Main">
+      <UniqueIdentifier>{58397c09-eeef-4b14-afe2-e11dc078ccd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Library">
+      <UniqueIdentifier>{286e63cd-9359-4618-acba-82d7ee03ad13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Version.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Sources\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Sources\Library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Version.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Sources\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Sources\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Sources\Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
